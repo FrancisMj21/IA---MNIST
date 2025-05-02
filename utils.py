@@ -1,3 +1,5 @@
+import torch
+import torch.nn as nn
 class MyConvBlock(nn.Module):
     def __init__(self, in_ch, out_ch, dropout_p):
         super().__init__()
